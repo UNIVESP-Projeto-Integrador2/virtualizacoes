@@ -1,0 +1,9 @@
+"endpoint": "http://api.gerenciame.com/v1/tarefas/{id_tarefa}"{put}
+{
+    "nome_tarefa":"nome mudou",
+    "data_inicial":"2022-09-05",
+    "data_limite":"2022-12-09",
+    "hora":"12:00:00",
+    "status":"FEITO",
+    "descricao":"TESTE1"
+}
