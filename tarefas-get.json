@@ -1,9 +1,4 @@
 "endpoint": "http://api.gerenciame.com/v1/tarefas"{get}
-"queryParameters"
-{
-    "data_inicio": "2022-04-30",
-    "data_final": "2022-05-03"
-}
 
 "Response (exemplo)"
 {
@@ -14,13 +9,15 @@
             "data_inicial": "2022-04-30",
             "data_limite": "2022-05-06",
             "hora": "18:00",
-            "status": 0,
+            "status": "FEITO",
             "descricao": "blablabla",
             "subtarefas": [
                 {
+                    "id_subtarefa": 4,
+                    "id_tarefa": 1,
                     "nome_subtarefa": "subtarefa1",
                     "anexo_subtarefa": "imagem1.jpg",
-                    "status_subtarefa": "a fazer"
+                    "status_subtarefa": "FEITO"
                 }
             ]
         }    
