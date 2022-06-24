@@ -1,0 +1,7 @@
+"endpoint": "http://api.gerenciame.com/v1/subtarefas"{post}
+{
+  "id_tarefa": 1,
+  "nome_subtarefa": "teste",
+  "anexo_subtarefa": "teste",
+  "status_subtarefa": "A_FAZER"
+}
