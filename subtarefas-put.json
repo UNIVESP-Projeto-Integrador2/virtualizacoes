@@ -1,0 +1,6 @@
+"endpoint": "http://api.gerenciame.com/v1/subtarefas/{id_subtarefa}"{put}
+{
+  "nome_subtarefa": "nome teste",
+  "anexo_subtarefa": "anexo",
+  "status_subtarefa": "FAZENDO"
+}
